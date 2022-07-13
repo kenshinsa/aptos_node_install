@@ -82,10 +82,6 @@ aptos genesis set-validator-configuration \
     --username $APTOS_NODENAME \
     --validator-host $IPADDR:6180
     
-#aptos key generate --assume-yes --output-file root_key.txt
-#KEYTXT=$(cat ~/testnet/root_key.txt.pub) 
-#KEY="0x"$KEYTXT 
-
 echo "---
 root_key: \"F22409A93D1CD12D2FC92B5F8EB84CDCD24C348E32B3E7A720F3D2E288E63394\"
 users:
